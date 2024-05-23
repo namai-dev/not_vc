@@ -1,0 +1,66 @@
+/* src/components/SpinToWin.css
+.wheel {
+  width: 300px;
+  height: 300px;
+  border: 10px solid #3f51b5;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transform: rotate(var(--rotate-start, 0deg));
+  transition: transform 3s ease-out;
+}
+
+.spinning {
+  --rotate-start: var(--rotate-end);
+  transform: rotate(var(--rotate-end));
+}
+
+.segment {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.segment-1 {
+  transform: rotate(0deg) translate(100%, -50%);
+  background-color: #f44336;
+}
+.segment-2 {
+  transform: rotate(60deg) translate(100%, -50%);
+  background-color: #e91e63;
+}
+.segment-3 {
+  transform: rotate(120deg) translate(100%, -50%);
+  background-color: #9c27b0;
+}
+.segment-4 {
+  transform: rotate(180deg) translate(100%, -50%);
+  background-color: #3f51b5;
+}
+.segment-5 {
+  transform: rotate(240deg) translate(100%, -50%);
+  background-color: #2196f3;
+}
+.segment-6 {
+  transform: rotate(300deg) translate(100%, -50%);
+  background-color: #009688;
+}
+
+.segment-text {
+  transform: rotate(-30deg); /* Adjust this for correct text orientation */
+  writing-mode: vertical-rl;
+} */
