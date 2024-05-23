@@ -7,7 +7,7 @@ import Header from "./components/Header.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <TonConnectUIProvider manifestUrl="https://github.com/namai-dev/not_vc/blob/main/manifest.json">
+    <TonConnectUIProvider manifestUrl="https://not-vc1.vercel.app/manifest.json">
       <Header />
       <App />
     </TonConnectUIProvider>
